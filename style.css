@@ -2,13 +2,50 @@ body {
   width: 100%;
   margin: auto;
   text-align: center;
+  background-color: #B1BFBD;
 }
 
-img {
-  width: 100%;
-  height: auto;
+#main {
+  padding: 2%;
 }
 
 h1 {
-  font-weight: bold;
+  font-size: 300%;
+}
+
+img {
+  width: 90%;
+  height: auto;
+  margin-top: 2%;
+}
+
+#img-div {
+  margin: 2%;
+  background-color: white;
+}
+
+#img-caption {
+  padding-bottom: 2%;
+}
+
+section {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.left {
+  margin-left: -11%;
+}
+
+body > p:last-child {
+  padding-bottom: 2%;
+}
+
+section > p {
+  font-size: 160%;
 }
